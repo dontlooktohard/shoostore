@@ -1,4 +1,4 @@
-franco-mock.netlify.app
+https://franco-mock.netlify.app
 
 
 this site is a shoostore app using fake API to demonstraite the products, and by using router to move from etch page to another.
