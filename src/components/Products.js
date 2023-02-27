@@ -8,10 +8,8 @@ const Products = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios({
-      method: "Get",
-      URL: "https://fakestoreapi.com/products",
-    })
+    axios
+      .get("https://fakestoreapi.com/products")
       .then((res) => {
         console.log(res.data);
         setData(res.data);
