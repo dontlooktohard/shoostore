@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* .app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.btn {
+  padding: 0.1rem;
+  margin: 0 1rem;
+  background-color: chartreuse;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+.card-description{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-container{
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  padding: 10px;
+}
+.Footer{
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.Navbar{
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+img {
+  width: 50rem;
+  height: 50rem;
+  transform: all 0.3 ease;
+  padding: 5rem;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+
+
